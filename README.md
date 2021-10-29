@@ -16,20 +16,21 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
    >>> Service & Port
    - OpenSSH                 : 22
    - OpenVPN                 : TCP 1194, UDP 2200
+   - OHP                     : 8087
    - Stunnel4                : 888, 777
    - Dropbear                : 109, 143
-   - Squid Proxy             : 3128, 8080 (limit to IP Server)
+   - Squid Proxy             : 3128, 8000 (limit to IP Server)
    - Badvpn                  : 7300
    - Nginx                   : 81
    - Wireguard               : 7070
    - Shadowsocks-R           : 1443-1543
    - SS-OBFS TLS             : 2443-2543
    - SS-OBFS HTTP            : 3443-3543
-   - Xray Vmess TLS          : 8000
-   - Xray Vmess None TLS     : 80
-   - Xray Vless TLS          : 543
-   - Xray Vless None TLS     : 643
-   - Xray Vless Tcp XTLS     : 443
+   - v2ray VLESS XTLS SPLICE : 443
+   - v2ray VLESS XTLS DIRECT : 443
+   - v2ray VLESS WS TLS      : 443
+   - v2ray TROJAN TLS        : 443
+   - v2ray VMESS TLS         : 443
    - Trojan-GFW              : 2087
 
    >>> Server Information & Other Features
