@@ -4,7 +4,10 @@
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl wget tcpdump dsniff grepcidr dnsutils -y && wget https://raw.githubusercontent.com/shopeevpn/kavpn2/main/setup.sh && chmod +x setup.sh && "/root/setup.sh"
 ```
-
+<h3 align="center">Screenshots</h3>
+<p align="center">
+<img src="https://raw.githubusercontent.com/shopeevpn/inject-data/main/raw/VPNSHOPEE-2.jpg">
+   </p>
 
 
   .-------------------------------------------------------.
